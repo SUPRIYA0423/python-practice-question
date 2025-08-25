@@ -1,0 +1,9 @@
+#find value of A^B
+A = int(input("Enter A: "))
+B = int(input("Enter B: "))
+result = 1
+i = 1
+while i <= B:
+    result *= A
+    i += 1
+print("A^B =", result)
