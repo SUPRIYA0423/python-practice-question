@@ -1,0 +1,8 @@
+#isalpha()
+a=input()
+f=1
+for ch in a:
+    if not (ch.isalpha()):
+        f=0
+        break
+print(f)
